@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-image: url(../img/knsb2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.box-main{
+    width: 500px;
+    height: 750px;
+    background-color: #276266;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top:40px;
+    left: 700px;
+    color: #ffffff;
+    
+}
+
+.box-tittle {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.box-form{
+
+    padding-left: 30px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px;
+    background-color:#FFC236;
+    color: #fff;
+    position: relative;
+    left:100px;
+    top:20px;
+    text-decoration: none;
+    border: none;
+
+}
+
+button:hover{
+    
+    animation: pulse 1500ms infinite ;
+}
+
+@keyframes pulse {
+    0% { box-shadow: #FFC236 0 0 0 0;}
+    75% {box-shadow: #FFC236 0 0 0 5px;}
+}
+.reset{
+left:70px;
+
+}
+
+.confirm{
+    left:120px;
+
+}

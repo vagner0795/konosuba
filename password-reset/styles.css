@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+}
+body {
+
+    background-image: url(../img/ko.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    height: 300px;
+    width: 350px;
+    background-color:#264250;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: 350px;
+    left: 40%;
+    padding: 20px;
+}
+
+.tittle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tittle2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-email {
+    font-size: 15px;
+    
+}
+
+.button-send{
+    position: relative;
+    top: 30px;
+    left: 90px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color:#FFC236;
+    cursor: pointer;
+
+}
+
+
+.button-send:hover{
+    
+    animation: pulse 1500ms infinite ;
+}
+
+@keyframes pulse {
+    0% { box-shadow: #FFC236 0 0 0 0;}
+    75% {box-shadow: #FFC236 0 0 0 5px;}
+}
