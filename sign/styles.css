@@ -8,10 +8,24 @@
 }
 
 body{
-    background-image: url(../img/knsb2.jpg);
+    background-image: url(../img/img-form.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+.link {
+    color:#fff;
+    font-size: 30px;
+    position: relative;
+    top:30px;
+    left: 70%;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+   
+}
+.link:hover {
+    color:#A3DBFE;
 }
 
 
@@ -38,6 +52,12 @@ body{
 .box-form{
 
     padding-left: 30px;
+}
+
+input {
+    accent-color:#FFC236 ;
+    border: none;
+    
 }
 
 button {
